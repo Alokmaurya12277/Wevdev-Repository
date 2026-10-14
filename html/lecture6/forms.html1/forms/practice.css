@@ -1,0 +1,94 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+.click{
+    color:#000000;
+    text-align: center;
+}
+.center{
+      text-align: center;
+}
+.root{
+    border-color: #000000;
+ 
+}
+.all{
+    border-color: #000000;
+    height: 250px;
+
+}
+/* .pizza{
+    display: inline-block;
+    border: dotted;
+    border-color: red;
+} */
+ .three{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    border: dotted;
+    border-color: red;
+
+ }
+ .size{
+    width: 120px;
+    height: 100px;
+    border: dotted;
+    border-color: red;
+    margin: 10px;
+    position:absolute;
+    bottom: 130px;
+    left: 160px;
+ }
+ .extra{
+    width: 120px;
+    height: 100px;
+    border: dotted;
+    border-color: red;
+    margin:10px ;
+    position:absolute;
+    left: 330px;
+    bottom:130px ;
+ }
+ #button{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    color:#ffffff;
+    background-color: rgb(137, 137, 247);
+ }
+ #can{
+    position:absolute;
+    left: 300px;
+    bottom: 50px;
+    color:#ffffff;
+    background-color: rgb(137, 137, 247);
+ }
+ #wrapper{
+   background-repeat: no-repeat;
+   /* background-position: bottom; */
+   position: relative;
+   background-size: contain;
+   background-size: 200px;
+   background-color: rgb(250, 163, 163);
+   background-image: url(https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.6666666666666667xw:1xh;center,top&resize=1200:*)
+
+   
+ }
+ .video{
+   margin:100px;
+   /* background-size:px ; */
+   height: 500px;
+   width: 500px;
+ }
+#vidoe{
+   position: fixed;
+   top: 20px;
+   right: 20px;
+   width: 200px;
+}
+.dis{
+   margin: 20px;
+}

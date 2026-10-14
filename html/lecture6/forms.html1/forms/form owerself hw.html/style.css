@@ -1,0 +1,23 @@
+#nam{
+    padding-left: 150px;
+    margin: 0px;
+}
+#check{
+    padding-left: 150px;
+    margin-bottom: -15px;
+}
+.pa{
+    margin-top: 0px;
+    padding-left: 150px;
+}
+#dis{
+    padding: 30px;
+}
+.color{
+    border-color: blueviolet ;
+   border-width: 20px;
+
+}
+.all{
+   background-color: rgb(235, 216, 252);
+}

@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-container{
+            display: flex;
+            gap: 10px;
+            align-items: flex-start, flex-end;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="all">
+    <h1 style="text-align: center;">Novell Service Login</h1>
+    <div><fieldset class="color"> <br>
+        <form id="dis">
+            <label for="text">Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="text" placeholder="Enter you name">
+            <br><br>
+            <label for="password"> Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password" id="password" placeholder="Enter you password">
+            <br><br>
+            <label for="Enrollment">City of <br> Enrollment:</label>&nbsp;&nbsp;&nbsp;
+            <input type="" id="Enrollment" placeholder=" Enter city enrollment">
+            <br><br>
+            <label for="web server">Web server:</label>&nbsp;&nbsp;&nbsp;
+            <select name="" id="web server">
+                <option value="">Server name</option>
+                <option value="">AWS server </option>
+                <option value="">Microsoft server</option>
+                <option value="">Zoho server</option>
+            </select>
+            <br><br><br>
+               
+           <p id="nam"> <input type="radio" id="ad" name="Admin">
+            <label for="ad" >Admin</label></p> <br>
+           <p id="nam"> <input type="radio" id="ma" name="Admin">
+             <label for="ma">Manager</label></p> 
+              <label for="">Please specify:</label>
+              <p id="nam"><input type="radio" id="do" name="Admin">
+            <label for="do" >Doctor</label> </p><br>
+             <p id="nam"><input type="radio" id="en" name="Admin">
+            <label for="en" >Engineer</label> </p><br>
+            <br><br>
+            <div class="up"><p id="check"><input type="checkbox" id="mail">
+            <label for="mail">Mail</label></p></div>
+           <label>Single Sign-on <br>
+           to the following:</label> 
+            
+            <div class="up"><p class="pa" ><input type="checkbox" id="pay">
+            <label for="pay">Payroll</label> </p>
+            <p class="pa"><input type="checkbox" id="self">
+            <label for="self">Self-service</label></p></div>
+           
+
+
+
+
+        </form>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
