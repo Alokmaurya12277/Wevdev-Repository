@@ -1,11 +1,11 @@
 
 import React from 'react'
 
-function Navbar({count}) {
-
+function Navbar({value}) {
+   
   return (
-    <div>Navbar - {count}</div>
+    <div>Navbar - ({value})</div>
   )
 }
-      
+
 export default Navbar
