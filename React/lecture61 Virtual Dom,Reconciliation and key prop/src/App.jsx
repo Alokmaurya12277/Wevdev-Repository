@@ -18,7 +18,7 @@ function App() {
     <div>
       <h2>hii</h2>
       <h3>hello</h3>
-     {/* {changeTag ? (
+     {changeTag ? (
       <div>
         <p>Div Tag</p>
         <Counter/>
@@ -28,18 +28,18 @@ function App() {
           <p>Sectiion Tag</p>
           <Counter/>
         </section>
-      )} */}
-       {/* <div className={changeTag ? "active" : "inactive"}>
+      )} 
+        <div className={changeTag ? "active" : "inactive"}>
         <Counter/>
-      </div>  */}
-{/* 
+      </div> 
+ 
     {
       changeTag ? <Counter/> : <Counter/>
-    } */}
+    } 
 
-      {/* <button onClick={() => setChangeTag((prev) => !prev)}>Change Tag</button> */}
+      <button onClick={() => setChangeTag((prev) => !prev)}>Change Tag</button>
       <Key/>
-    </div>
+    </div> 
     
   )
 }
